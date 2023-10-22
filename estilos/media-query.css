@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*    TYPICAL DEVICE BREAKPOINTS (2020)
+-----------------------------------------------
+    - Pequenas Telas (Até 600px):
+    - Celular (de 600px até 768px): 
+    - Tablet (768px até 992px):
+    - Desktop (992px até 1200px):
+    - Grandes Telas (acima de 1200px):
+*/
+
+/*
+    PALETA DE CORES
+Lilás: #B2BACD
+Rosê: #C6AE66
+Verde: #B0B862
+Azul: #BACDEB
+Cinza: #BDBEC2
+
+*/
+/* #C6AE66, #BACDEB, #B2BACD, #C6AE66 */
+/* #C6AE66, #BACDEB, #B2BACD, #C6AE66 */
+/* #C6AE66, #BACDEB, #B2BACD, #C6AE66 D5E0D0 */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #BDBEC2, #B2BACD);
+    }
+
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #BDBEC2, #B2BACD);
+    }
+
+    section#login {
+    width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+}

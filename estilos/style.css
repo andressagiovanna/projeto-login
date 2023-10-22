@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/*
+    PALETA DE CORES
+Lilás: #B2BACD
+Rosê: #C6AE66
+Verde: #B0B862
+Azul: #BACDEB
+Cinza: #BDBEC2
+
+*/
+
+:root {
+    --cor1: #B2BACD;
+    --cor2: #C6AE66;
+    --cor3: #5C6033;
+    --cor4: #BACDEB;
+    --cor5: #BDBEC2;
+    
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: var(--cor3);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-position: right top;
+
+    background-color: white;
+    width: 260px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: var(--cor3) url(../imagens/pexels-jess-bailey-designs-730751.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
