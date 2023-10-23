@@ -18,11 +18,8 @@ Azul: #BACDEB
 Cinza: #BDBEC2
 
 */
-/* #C6AE66, #BACDEB, #B2BACD, #C6AE66 */
-/* #C6AE66, #BACDEB, #B2BACD, #C6AE66 */
-/* #C6AE66, #BACDEB, #B2BACD, #C6AE66 D5E0D0 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) /* CONFIG PARA PEQUENAS TELAS */ {
 
     body {
         background-image: linear-gradient(to bottom, #BDBEC2, #B2BACD);
@@ -45,7 +42,7 @@ Cinza: #BDBEC2
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) /* CONFIG PARA GRANDES TELAS */ {
 
     body {
         background-image: linear-gradient(to bottom, #BDBEC2, #B2BACD);
